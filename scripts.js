@@ -23,7 +23,7 @@ window.onload = () => {
                     addEventButton: {
                     text: 'Event...',
                     click: function Redirection () {
-                        document.location.href="event.html";
+                        document.location.href="/asset/event.html";
                         }
                      }
                     },
@@ -53,7 +53,7 @@ window.onload = () => {
         }
     }
 
-    xmlhttp.open('get', 'http://localhost/Full_Calendar/connect.php', true)
+    xmlhttp.open('get', 'http://localhost/Full_Calendar/assets/connect.php', true)
     xmlhttp.send(null)
 
 }

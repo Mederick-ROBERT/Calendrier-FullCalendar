@@ -10,8 +10,8 @@ echo json_encode($event);
 // Connexion à MySQL
 $host='localhost';
 $data='Calendrier';
-$user='root';
-$pass="";
+$user='#';
+$pass="#";
 $chrs='utf8mb4';
 $attr="mysql:host=$host;dbname=$data;charset=$chrs";
 $opts=
